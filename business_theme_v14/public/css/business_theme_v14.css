@@ -16,7 +16,7 @@
     --gradient-primary: linear-gradient(135deg, #3498db, #2ecc71); /* Gradient from blue to green */
 }
  
-/* Custom Scrollbar */
+/* Custom Scrollbar.... */
 *::-webkit-scrollbar {
     width: 10px;
 }

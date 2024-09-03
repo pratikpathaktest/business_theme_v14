@@ -36,7 +36,7 @@
     scrollbar-color: var(--primary-color) var(--dark-bg-color);
 }
  
-/* Form Controls */
+/* Form Controls... */
 .form-control {
     border: 1px solid var(--dark-bg-color);
     border-radius: var(--border-radius);

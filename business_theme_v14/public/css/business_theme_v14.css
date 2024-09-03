@@ -54,7 +54,7 @@
 .btn-primary {
     color: #fff !important;
     background: var(--gradient-primary) !important;
-    border-radius: var(--border-radius) !important;
+    border-radius: 12px !important; /* Rounded corners */
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     border: none !important;
 }
@@ -62,18 +62,20 @@
 .btn-primary:hover {
     background: linear-gradient(135deg, #2980b9, #27ae60) !important;
     box-shadow: var(--box-shadow) !important;
+    border-radius: 12px !important; /* Maintain rounded corners on hover */
 }
  
 .btn-secondary {
     background-color: #555 !important;
     color: var(--light-bg-color) !important;
-    border-radius: var(--border-radius) !important;
+    border-radius: 12px !important; /* Rounded corners */
     transition: background-color 0.3s ease;
     border: none !important;
 }
  
 .btn-secondary:hover {
     background-color: #444 !important;
+    border-radius: 12px !important; /* Maintain rounded corners on hover */
 }
  
 /* Navbar */
@@ -246,7 +248,7 @@ header ul#navbar-breadcrumbs {
     background-color: var(--secondary-color) !important;
     color: var(--light-bg-color) !important;
     transition: background-color 0.3s ease;
-    border-radius: var(--border-radius) !important;
+    border-radius: 12px !important; /* Rounded corners */
     border: none !important;
 }
  
@@ -254,6 +256,7 @@ header ul#navbar-breadcrumbs {
 .sort-selector-button:hover,
 .btn-order:hover {
     background-color: #c0392b !important;
+    border-radius: 12px !important; /* Maintain rounded corners on hover */
 }
  
 .filter-button span.filter-icon {
@@ -263,5 +266,3 @@ header ul#navbar-breadcrumbs {
 .filter-button span.filter-icon svg.icon {
     stroke: var(--light-bg-color);
 }
- 
- 
